@@ -24,7 +24,6 @@
     "!**/__mocks__"
   ],
   "scripts": {
-    "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable",
     "build": "bob build",
